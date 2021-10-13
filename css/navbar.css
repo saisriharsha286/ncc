@@ -2,9 +2,13 @@
     background: rgba(22, 25, 130, 0.949);
     color: white;
   }
+  .navLinks{
+      width: 75%;
+      margin: auto;
+  }
   .navLinks li a{
       color: white !important;
-      font-size: larger;
+      font-size: 20px;
   }
   .navLinks li a:hover{
       color: black !important;
