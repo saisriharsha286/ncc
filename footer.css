@@ -1,0 +1,39 @@
+#title_footer {
+  border-bottom: 2px solid black;
+  padding-right: 1.5em;
+  width: fit-content;
+}
+.element {
+  max-width: fit-content;
+}
+a#content {
+  text-decoration: none;
+  color: #fffdfd;
+}
+.address {
+  width: 12em;
+}
+
+a#logo1:hover > img {
+  border-radius: 50%;
+  background: rgb(0, 89, 255);
+}
+a#logo2:hover > img {
+  border-radius: 50%;
+  background: red;
+}
+
+@media (max-width: 950px){
+    .element{
+        padding: 0px;
+    }
+}
+@media (max-width: 760px){
+    .footerResponsive{
+        flex-direction: column;
+    }
+    .element{
+        padding: 1rem;
+        max-width: 100%;
+    }
+}
