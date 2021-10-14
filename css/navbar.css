@@ -1,0 +1,17 @@
+.navBar {
+    background: rgba(22, 25, 130, 0.949);
+    color: white;
+  }
+  .navLinks{
+      width: 85%;
+      margin: auto;
+  }
+  .navLinks li a{
+      color: white !important;
+      font-size: 20px;
+  }
+  .navLinks li a:hover{
+      color: black !important;
+      background: white;
+      border-radius: 1rem;
+  }
