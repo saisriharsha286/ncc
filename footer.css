@@ -22,7 +22,29 @@ a#logo2:hover > img {
   border-radius: 50%;
   background: red;
 }
-
+.navBar {
+  background: rgba(22, 25, 130, 0.949);
+  color: white;;
+}
+.navbar-row{
+  background-color: transparent;
+}
+.navLinks{
+    width: 85%;
+    margin: auto;
+}
+.navLinks li a{
+    color: white !important;
+    font-size: 20px;
+}
+.navLinks li a:hover{
+    color: black !important;
+    background: white;
+    border-radius: 1rem;
+}
+.fitContent{
+  width: fit-content;
+}
 @media (max-width: 950px){
     .element{
         padding: 0px;
