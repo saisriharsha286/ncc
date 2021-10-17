@@ -53,11 +53,6 @@ a#logo3:hover > img{
 .fitContent{
   width: fit-content;
 }
-@media (max-width: 950px){
-    .element{
-        padding: 0px;
-    }
-}
 @media (max-width: 760px){
     .footerResponsive{
         flex-direction: column;
