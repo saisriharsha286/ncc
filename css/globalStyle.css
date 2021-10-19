@@ -10,3 +10,6 @@
 .ncc-navBar{
     width: 100%;
 }
+.underline-white{
+    border-bottom: 2px solid white;
+}
