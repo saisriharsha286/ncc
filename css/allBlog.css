@@ -1,0 +1,7 @@
+.blogBox{
+    width: fit-content;
+}
+.blogTitle{
+    word-wrap: normal;
+    width: 450px;
+}
