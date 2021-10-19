@@ -1,0 +1,64 @@
+.Our_AIM{
+    width: 100%;
+    padding-top: 10px;
+    background: linear-gradient(180deg, #D3DFF1 82.81%, #fff 100%);
+}
+.Pledge{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    background: #fff;
+}
+.aim  {
+    width: 13.5%;
+    height: 12.5%;
+    margin-top: 15px;
+    background: #053D4D;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.pldge {
+    width: 13%;
+    height: 12.5%;
+    margin-top: 20px;
+    background: #053D4D;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+  
+.flex-container > div {
+    margin: 10px;
+}
+img{
+    margin-top: 25px;
+    left: -10px;
+    top: 22.2%;
+    
+}
+.text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 26px;
+    text-align: justify;
+    color: #1B1B1B;
+}
+
+.text2{
+    left: 42%;
+    right: 8%;
+    top: 75px;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 100%;
+    line-height: 26px;
+    text-align: justify;
+
+    color: #000000;
+}
