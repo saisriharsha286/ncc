@@ -5,6 +5,10 @@
 .navbar-row{
   background-color: transparent;
 }
+.heading-ncc{
+  font-size: 25px;
+  margin-bottom: .5rem;
+}
 .navLinks{
     width: 85%;
     margin: auto;
