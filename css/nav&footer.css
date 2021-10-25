@@ -37,8 +37,14 @@
 #title_footer {
   border-bottom: 2px solid;
   padding-right: 1.5em;
+}
+span#title_footer{
   width: fit-content;
 }
+div#title_footer > div{
+  font-weight: 600;
+}
+
 .element {
   max-width: fit-content;
 }
@@ -49,7 +55,9 @@ a#content {
 .address {
   width: 12em;
 }
-
+.footerResponsive1{
+  display: none !important;
+}
 a#logo1:hover > img {
   border-radius: 50%;
   background: rgb(0, 89, 255);
@@ -62,39 +70,43 @@ a#logo3:hover > img{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   border-radius: 50%;
 }
-/* .navBar {
-  background: rgba(22, 25, 130, 0.949);
-  color: white;
-
-} */
 .footer-copyright{
   margin-bottom: 0px;
 }
-/* .navbar-row{
-  background-color: transparent;
-}
-.navLinks{
-    width: 85%;
-    margin: auto;
-}
-.navLinks li a{
-    color: white !important;
-    font-size: 20px;
-}
-.navLinks li a:hover{
-    color: black !important;
-    background: white;
-    border-radius: 1rem;
-} */
 .fitContent{
   width: fit-content;
 }
+#contact_content, #address_content, #website_content{
+  display: none;
+  transition: all 0.5s;
+}
+#footer_heading > h2{
+  font-weight: 700 !important;
+  font-size: 1.8em;
+  margin-bottom: 0.2rem;
+}
+#footer_heading > h4{
+  font-weight: 600 !important;
+  font-size: 1.5em;
+}
 @media (max-width: 760px){
     .footerResponsive{
-        flex-direction: column;
+      display: none !important;
     }
+    .footerResponsive1{
+      display: flex !important;
+    }
+
     .element{
-        padding: 1rem;
-        max-width: 100%;
+      padding: 1rem;
+      max-width: 100%;
     }
+}
+@media (max-width: 370px){
+  #footer_heading > h2{
+    font-size: 1.4em;
+  }
+  #footer_heading{
+    padding: 0.5rem !important;
+  }
 }
