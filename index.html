@@ -50,7 +50,7 @@
                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="./aboutUs.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Events</a>
@@ -231,7 +231,7 @@
                         <div class="pb-1">
                             Contact Us:
                         </div>
-                        <i class="fa fa-plus" onclick="footer('contact_content')"></i>
+                        <i class="fa fa-plus" id="contact" onclick="footer('contact_content', 'contact')"></i>
                     </div>
                     <div id="contact_content">
                         <div class="d-flex align-items-center pt-3">
@@ -260,7 +260,7 @@
                         <div class="pb-1">
                             Address:
                         </div>
-                        <i class="fa fa-plus" onclick="footer('address_content')"></i>
+                        <i class="fa fa-plus" id="address" onclick="footer('address_content', 'address')"></i>
                     </div>
                     <div id="address_content">
                         <div class="d-flex align-items-center pt-3">
@@ -275,7 +275,7 @@
                         <div class="pb-1">
                             IIT Roorkee:
                         </div>
-                        <i class="fa fa-plus" onclick="footer('website_content')"></i>
+                        <i class="fa fa-plus" id="website" onclick="footer('website_content', 'website')"></i>
                     </div>
                     <div id="website_content">
                         <div class="d-flex align-items-center pt-3">
@@ -308,12 +308,15 @@
     <!-- Footer Ends -->
 
     <script>
-        const footer = (id) => {
+        const footer = (id, icon) => {
             if (document.getElementById(id).style.display == "block") {
                 document.getElementById(id).style.display = "none"
+                document.getElementById(icon).className = "fa fa-plus"
+
             }
             else {
                 document.getElementById(id).style.display = "block"
+                document.getElementById(icon).className = "fa fa-minus"
             }
         };
         
