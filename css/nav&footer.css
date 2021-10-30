@@ -1,17 +1,28 @@
 .navBar {
+  padding: 0px;
   background: rgba(22, 25, 130, 0.949);
   color: white;
 }
-.navbar-row{
-  background-color: transparent;
+.NCC-Logo img{
+  margin: 16px 0px 4px 16px;
+  height: 90px;
+}
+.IITR-Logo img{
+  margin: 16px 0px 0px 0px;
+  height: 80px;
+}
+.collapsed{
+  transform: translateX(0) !important;
+}
+.box{
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  z-index: 3;
 }
 .heading-ncc{
   font-size: 25px;
   margin-bottom: .5rem;
-}
-.navLinks{
-    width: 85%;
-    margin: auto;
 }
 .navLinks li a:link{
     color: white !important;
@@ -89,6 +100,73 @@ a#logo3:hover > img{
   font-weight: 600 !important;
   font-size: 1.5em;
 }
+
+/* -----NAVBAR Responsiveness------ */
+@media only screen and (max-width: 992px){
+  .navbar-nav{
+    flex-direction: row;
+  }
+  .NCC-Logo img{
+    margin: 16px 0px 16px 12px;
+    height: 65px;
+  }
+  .IITR-Logo img{
+    margin: 16px 0px 0px -5px;
+    height: 60px;
+  }
+  .hamburger-box{
+    height: 40px;
+
+  }
+}
+@media only screen and (max-width:760px) {
+  #ncc-heading{
+    display: none;
+  }
+  .box{
+    position: absolute;
+    transform: translateX(-100vw);
+  }
+  .toggle-icon{
+    display: block !important;
+  }
+  .navbar-nav{
+    flex-direction: column;
+  }
+  .NCC-Logo img{
+    margin: 16px 0px 16px 16px;
+    height: 65px;
+  }
+  .IITR-Logo img{
+    margin: 16px 0px 0px 20px;
+    height: 60px;
+  }
+  .hamburger-box{
+    height: 50px;
+    margin-left: 30px;
+
+  }
+}
+@media only screen and (max-width:470px) {
+  
+  .NCC-Logo img{
+    margin: 8px 0px 8px 8px;
+    height: 60px;
+  }
+  .IITR-Logo img{
+    margin: 8px 0px 0px 30px;
+    height: 55px;
+  }
+  .hamburger-box{
+    height: 40px;
+    margin-left: 0px;
+
+  }
+  #carouselExampleIndicators > button{
+        display: none;
+  }
+}
+
 @media (max-width: 760px){
     .footerResponsive{
       display: none !important;
