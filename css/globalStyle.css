@@ -7,6 +7,9 @@ body{
 .ncc-white{
     color: #FFFDFD
 }
+.ncc-black{
+    color: black
+}
 .ncc-bg-blue{
     background-color:rgb(33, 36, 135, 0.95);
 }
