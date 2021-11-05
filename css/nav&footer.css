@@ -25,21 +25,21 @@
   margin-bottom: .5rem;
 }
 .navLinks li a:link{
+    font-family: Raleway;
     color: white !important;
     font-size: 20px;
-    background-color: transparent;
-    border-bottom-color: transparent;
-}
-.navLinks li a:visited{
-    color: white !important;
-    font-size: 20px;
-    background-color: transparent;
-    border-bottom-color: transparent;
+    margin-bottom: 2px;
+    /* border-radius: 10px; */
+    border-bottom: transparent;
 }
 /* Can Add transition on Hover  */
-.navLinks li a:hover{
-  border-bottom: white 1px solid;
-  padding-bottom: 1px;
+.navLinks li a:hover,.navLinks li a.active{
+    /* color: black !important; */
+  /* background-color: #fff; */
+  /* border-radius: 10px; */
+  border-bottom: white 1.5px solid;
+  padding-bottom: 1.5px;
+
 }
 .navLinks li a:active{
   border-bottom: white 1px solid;
@@ -126,6 +126,10 @@ a#logo3:hover > img{
   .box{
     position: absolute;
     transform: translateX(-100vw);
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    background: rgba(22, 25, 130, 0.969);
   }
   .toggle-icon{
     display: block !important;
