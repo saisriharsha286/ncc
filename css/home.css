@@ -1,25 +1,33 @@
 .Our_AIM{
+    padding-right: 50px;
     width: 100%;
     padding-top: 10px;
     background: linear-gradient(180deg, #D3DFF1 82.81%, #fff 100%);
 }
 .Pledge{
+    padding-right: 50px;
     width: 100%;
     margin-top: 0px;
     margin-bottom: 40px;
     background: #fff;
 }
 .aim  {
-    width: 13.5%;
-    height: 12.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: fit-content;
     margin-top: 15px;
     background: #053D4D;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
 .pldge {
-    width: 13%;
-    height: 12.5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: fit-content;
     margin-top: 20px;
     background: #053D4D;
     border-top-right-radius: 12px;
@@ -33,13 +41,14 @@
 .flex-container > div {
     margin: 10px;
 }
-img{
+.pics{
     margin-top: 25px;
     left: -10px;
     top: 22.2%;
     
 }
 .text{
+   
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-size: 100%;
@@ -49,10 +58,7 @@ img{
 }
 
 .text2{
-    left: 42%;
-    right: 8%;
-    top: 75px;
-
+   
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight:500;
@@ -61,4 +67,87 @@ img{
     text-align: justify;
 
     color: #000000;
+}
+@media(max-width:760px){
+    .Our_AIM{
+        margin: 0px;
+        border: 0px;
+        width: 100%;
+        margin-right: 0px;
+        
+        background: linear-gradient(180deg, #D3DFF1 82.81%, #fff 100%);
+    }
+    .Pledge{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        background: #fff;
+    }
+    .aim  {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 15px;
+        background: #053D4D;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .pldge {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: fit-content;
+        height:fit-content;
+        margin-top: 20px;
+        background: #053D4D;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+      
+    .flex-container > div {
+        padding: 10px;
+        width: 100%;
+    }
+    .pics{
+        
+        position: relative;
+        margin-left: 40px;
+        width: 100%;  
+    }
+    ul{
+        margin-left: 15%;
+    }
+    p{
+        margin-left: 10%;
+    }
+    .text{
+        width: 100%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 100%;
+        line-height: 26px;
+        text-align: justify;
+        color: #1B1B1B;
+    }
+    .text2{
+        padding-right: 55px;
+        padding-left: 40px;
+        left: 42%;
+        right: 8%;
+        top: 75px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight:500;
+        font-size: 100%;
+        line-height: 26px;
+        text-align: justify;
+    
+        color: #000000;
+    }
 }
