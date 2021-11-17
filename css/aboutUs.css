@@ -188,9 +188,6 @@
   color: white;
   background-color: #053d4d;
 }
-.nav-tabs .nav-link:hover {
-  color: black;
-}
 .nav-tabs li button {
   text-align: center;
 }
@@ -202,11 +199,16 @@
   margin: 40px 0;
   flex-wrap: wrap;
 }
+.section-1 p,
+.section-2 p{
+  margin-bottom: 4px;
+}
 .section-1 .item {
   text-align: center;
   background-color: white;
   border: 3px solid #222588;
   border-radius: 10px;
+  margin: 8px 0px;
   padding: 10px;
 }
 .section-2 .item {
@@ -250,15 +252,26 @@
     line-height: 20px;
     text-align: left !important;
   }
+  .section-1 .name {
+    font-size: 20px;
+  }
+  .section-1 .designation {
+    font-size: 16px;
+  }
+  .section-1 .contact{
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 760px) {
   .nav-tabs {
     flex-direction: column !important;
   }
   .heading {
-    font-size: 16px;
-    line-height: 19px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
   }
+  
   .line {
     width: 20%;
     height: 2px;
@@ -269,14 +282,55 @@
     text-align: left !important;
   }
   .section-1 .item {
-    width: 100%;
+    width: 80%;
     margin: 8px 0px;
   }
   .section-2 .item {
     margin: 8px auto;
   }
+  .section-1 .name {
+    font-size: 20px;
+  }
+  .section-1 .designation {
+    font-size: 16px;
+  }
+  .section-1 .contact{
+    font-size: 18px;
+  }
+  .section-2 .name {
+    font-size: 16px;
+  }
+  .section-2 .designation {
+    font-size: 12px;
+  }
+  .section-2 .contact{
+    font-size: 14px;
+  }
   .tab-content {
     display: none;
   }
 }
-
+@media only screen and (max-width: 360px){
+  .section-1 .item {
+    width: 100%;
+    margin: 8px 0px;
+  }
+  .section-1 .name {
+    font-size: 16px;
+  }
+  .section-1 .designation {
+    font-size: 12px;
+  }
+  .section-1 .contact{
+    font-size: 14px;
+  }
+  .section-2 .name {
+    font-size: 16px;
+  }
+  .section-2 .designation {
+    font-size: 12px;
+  }
+  .section-2 .contact{
+    font-size: 14px;
+  }
+}
