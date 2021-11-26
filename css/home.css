@@ -15,26 +15,30 @@ body{
   background: #fff;
 }
 .aim {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: fit-content;
-  margin-top: 15px;
+  width: 50%;
+  margin-left: 25%;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   background: #053d4d;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-radius: 12px;
+  border-radius: 12px;
 }
 .pldge {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: fit-content;
-  margin-top: 20px;
+  width: 50%;
+  margin-left: 25%;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
   background: #053d4d;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-radius: 12px;
+  border-radius: 12px;
 }
 .flex-container {
   display: flex;
@@ -46,15 +50,15 @@ body{
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.8em;
+  font-size: 2.2em;
   margin: 0px;
   color: #fff;
 }
 .pics {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 0px;
-  width: 350px;
-  height: auto;
+  width:550px;
+ 
 }
 .text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -65,7 +69,7 @@ body{
   text-align: justify;
   color: #1b1b1b;
 }
-@media (max-width: 760px) {
+@media (max-width: 769px) {
   .Our_AIM {
     padding-right: 0px;
   }
@@ -76,6 +80,35 @@ body{
     flex-direction: column;
   }
   .pics {
-    width: 70%;
+    width: 80%;
+  }
+  .aim {
+    width: 95%;
+    margin-left: 2.5%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: #053d4d;
+    border-radius: 12px;
+    border-radius: 12px;
+  }
+  ul{
+    margin-right: 25px;
+  }
+  .pldge {
+    width: 95%;
+    margin-left: 2.5%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: #053d4d;
+    border-radius: 12px;
+    border-radius: 12px;
   }
 }
