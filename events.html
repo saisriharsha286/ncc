@@ -87,18 +87,26 @@
       <div class="carousel-item active">       
         <img src="./images/blogs.png" alt="events" class="d-block" style="width:100%" class="imga" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <!-- Button trigger modal -->
->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <!-- <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div> -->
-      <div class="modal-body">
-        
+      <div class="modal-body p-0">
+        <div class="container-fluid p-0">
+          <div class="row d-flex modal-box m-0">
+            <div class="col-6 px-0 align-self-center">
+              <img src="./images/blogs.png" alt="events" class="d-block" style="width:100%" class="imga" >
+            </div>
+            <div class="col-6 modal-event">
+              <p class="text-center event-name">Event Name</p>
+              <p class="text-center event-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas aliquam et amet necessitatibus laudantium unde veritatis possimus. Voluptatem, odio alias consequuntur odit ducimus totam sapiente, tenetur harum impedit maiores ipsum, non facere cupiditate vitae! Corrupti, sapiente dolorem quas provident, explicabo officiis voluptatum qui ullam debitis distinctio, nihil saepe tenetur esse.</p>
+              <p class="event-details">Date & Time - 05-10-2021</p>
+              <p class="event-details">Venue - MAC</p>
+              <p class="event-details">Last date of registration - 04-10-21</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -129,8 +137,8 @@
             <br>
             <p id="last_date">Last date of registration - dd-mm-yyyy</p>
         </div>
-              </div>
     </div>
+</div>
     
     <!-- Left and right controls/icons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -139,7 +147,7 @@
     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
       <span class="carousel-control-next-icon"></span>
     </button>
-  </div>
+</div>
   <div class="section-heading text-center d-flex align-items-center justify-content-around py-3">
     <div class="line"></div>
     <p class="heading">Past Events</p>
@@ -197,20 +205,19 @@
               </div>
             </div>
           </div>
-          <div class="nav">
-            <button class="prev">
-                <i class="fas fa-angle-right"></i>
-            </button>
-            <button class="next">
-              <i class="fas fa-angle-left"></i>
-            </button>
-          </div>
-          <script src="./blogs.js"></script>
         </div>
+        </div>
+        <div class="nav">
+          <button class="prev">
+            <i class="fa fa-chevron-left"></i>
+          </button>
+          <button class="next">
+            <i class="fa fa-chevron-right"></i>
+          </button>
         </div>
       </div>
     </div>
-    <div class="modal" tabindex="-1">
+    <!-- <div class="modal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -226,7 +233,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Footer Starts -->
     <div class="ncc-bg-blue ncc-white">
@@ -385,6 +392,7 @@
   </p>
 
   <!-- Footer Ends -->
+  <script src="./blogs.js"></script>
   <script>
 
     const footer = (id) => {
@@ -405,8 +413,7 @@
       box.classList.toggle("collapsed");
     };
 
-
-  </script> <!-- Bootstrap Js link  -->
+    </script> <!-- Bootstrap Js link  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
