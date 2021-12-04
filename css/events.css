@@ -85,6 +85,30 @@
     width: 100%;
     overflow-x: scroll;
 }
+.nav button {
+  border: 0;
+  background-color: #F3F9FF;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.nav button i{
+  font-size: 30px;
+}
+.nav .prev {
+  left: -40px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -40px;
+}
+.nav .next.hide {
+  display: none;
+}
 .card > * {
     flex: 1;
   }

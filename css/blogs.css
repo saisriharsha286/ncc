@@ -45,7 +45,7 @@
   transition: transform 0.5s;
 }
 .carousel-container .card-container {
-  width: 259px;
+  width: 25%;
   flex-shrink: 0;
   height: 250px;
   padding-right: 15px;
@@ -62,24 +62,25 @@
   flex-direction: column;
 }
 .nav button {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 1px solid #aaa;
+  border: 0;
+  background-color: #F3F9FF;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
+.nav button i{
+  font-size: 30px;
+}
 .nav .prev {
-  left: -30px;
+  left: -40px;
   display: none;
 }
 .nav .prev.show {
   display: block;
 }
 .nav .next {
-  right: -30px;
+  right: -40px;
 }
 .nav .next.hide {
   display: none;
